@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rop-syscall-kit", "lib\rop_syscall_kit.vcxproj", "{9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benign-poc", "examples\benign-poc\benign-poc.vcxproj", "{ACB86B57-9167-4C0B-93B8-FE99C0AF1D7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1} = {9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1}.Debug|x64.ActiveCfg = Debug|x64
+		{9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1}.Debug|x64.Build.0 = Debug|x64
+		{9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1}.Release|x64.ActiveCfg = Release|x64
+		{9B7F5FA2-6D92-4F04-9E99-5032D1D5DCA1}.Release|x64.Build.0 = Release|x64
+		{ACB86B57-9167-4C0B-93B8-FE99C0AF1D7C}.Debug|x64.ActiveCfg = Debug|x64
+		{ACB86B57-9167-4C0B-93B8-FE99C0AF1D7C}.Debug|x64.Build.0 = Debug|x64
+		{ACB86B57-9167-4C0B-93B8-FE99C0AF1D7C}.Release|x64.ActiveCfg = Release|x64
+		{ACB86B57-9167-4C0B-93B8-FE99C0AF1D7C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7C4E728-D4A5-4D8E-A3E2-F7D74201B190}
+	EndGlobalSection
+EndGlobal

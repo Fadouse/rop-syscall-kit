@@ -1,0 +1,45 @@
+# Visual Studio / MSBuild output
+.vs/
+x64/
+x86/
+bin/
+obj/
+build/
+out/
+Debug/
+Release/
+*.tlog
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.recipe
+
+# Native build artifacts
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.exe
+*.dll
+*.exp
+*.res
+*.manifest
+*.map
+*.log
+
+# Per-user Visual Studio state
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.tmp
