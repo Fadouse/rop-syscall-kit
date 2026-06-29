@@ -1,6 +1,6 @@
 # rop-syscall-kit
 
-`rop-syscall-kit` is a Windows x64 C++ library for resolving Native API syscall numbers at runtime and invoking them through compact ROP-style syscall stubs.
+`rop-syscall-kit` is a Windows x64 C++ library for resolving Native API syscall numbers at runtime and invoking them through compact ROP-style syscall stubs with stack spoof(optional).
 
 ## Notice
 
