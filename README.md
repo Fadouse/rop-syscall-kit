@@ -223,7 +223,7 @@ higher addresses
   fake return anchor #2
   fake return anchor #1
   copied stack arguments
-  shadow / temporary stack areaThis project is released under the MIT License. See [`LICENSE`](LICENSE).
+  shadow / temporary stack area.
   syscall; ret gadget call
 lower addresses
 ```
