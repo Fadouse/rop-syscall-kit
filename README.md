@@ -4,8 +4,7 @@
 
 ## Notice
 
-> [!NOTE]
-> This project is provided only for learning, technical research, and technical exchange.
+> For educational exchange and authorized security research only. Use these PoCs only in local labs, CTFs, coursework, or systems you own or are explicitly authorized to test. The examples are intentionally benign and are provided to study windows mechanisms, not for unauthorized access or misuse.
 
 ## Features
 
@@ -224,7 +223,7 @@ higher addresses
   fake return anchor #2
   fake return anchor #1
   copied stack arguments
-  shadow / temporary stack area
+  shadow / temporary stack areaThis project is released under the MIT License. See [`LICENSE`](LICENSE).
   syscall; ret gadget call
 lower addresses
 ```
@@ -365,8 +364,7 @@ if (rop_syscall::get_syscall_number("NtClose", number)) {
 
 ## License
 
-`rop-syscall-kit` is released under the MIT License.
+This project is released under the MIT License. See [`LICENSE`](LICENSE).
 
 Copyright (c) 2026 Fadouse
 
-See [`LICENSE`](LICENSE).
